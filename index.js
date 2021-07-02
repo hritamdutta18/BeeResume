@@ -29,7 +29,7 @@ app.post('/create-pdf', (req, res) => {
 
 // Sending generated pdf 
 app.get('/fetch-pdf', (req,res) => {
-    res.sendFile(`${__dirname}/My Resume.pdf`);
+    res.sendFile(`${__dirname}/Resume.pdf`);
 });
 
 if(process.env.NODE_ENV === 'production'){
