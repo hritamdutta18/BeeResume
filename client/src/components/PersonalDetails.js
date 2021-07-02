@@ -7,16 +7,13 @@ class PersonalDetails extends Component {
         this.props.nextStep();
     };
 
-    
-
-      
     render() {
         const { values, handleChange } = this.props;
         return (
             <div className="card animated fadeInLeft">
                 <div className="card-body">
 
-                    <h3 className="card-title">Personal Info</h3>
+                    <h2 className="card-title">Personal Info</h2>
                     <hr />
                 </div>
                 <form onSubmit={this.continue}>

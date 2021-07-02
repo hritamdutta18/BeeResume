@@ -14,21 +14,21 @@ class Extras extends Component {
         e.preventDefault();
         this.props.submitted();
         this.props.nextStep();
-        /*const data = {
-            name: this.state.name,
-            email: this.state.email,
-            phone: this.state.phone,
-            linkedin: this.state.linkedin,
-            github: this.state.github,
-            skills: this.state.skills,
-            exp1_org: this.state.exp1_org,
-            exp1_pos: this.state.exp1_pos,
-            exp1_desc: this.state.exp1_desc,
+        // const data = {
+        //     name: this.state.name,
+        //     email: this.state.email,
+        //     phone: this.state.phone,
+        //     linkedin: this.state.linkedin,
+        //     github: this.state.github,
+        //     skills: this.state.skills,
+        //     exp1_org: this.state.exp1_org,
+        //     exp1_pos: this.state.exp1_pos,
+        //     exp1_desc: this.state.exp1_desc,
 
-            exp2_org: this.state.exp1_org,
-            exp2_pos: this.state.exp1_pos,
-            exp2_desc: this.state.exp1_desc
-        }*/
+        //     exp2_org: this.state.exp1_org,
+        //     exp2_pos: this.state.exp1_pos,
+        //     exp2_desc: this.state.exp1_desc
+        // }
         const data = this.props.values;
 
 
@@ -51,7 +51,7 @@ class Extras extends Component {
             <div className="card animated fadeInLeft">
                 <div className="card-body">
 
-                    <h3 className="card-title">Miscellaneous</h3>
+                    <h2 className="card-title">Miscellaneous</h2>
                     <hr />
                 </div>
                 <form onSubmit={this.formSubmit}>
@@ -88,7 +88,7 @@ class Extras extends Component {
                     <br />
                     <div className="container text-center">
                         <button type="button" className="btn btn-info" onClick={this.back}><i className="fas fa-angle-left mr-1"></i>Back</button>
-                        <button type="submit" className="btn btn-info">Download PDF<i className="fas fa-download ml-1"></i></button>
+                        <button type="submit" className="btn btn-warning">Download PDF<i className="fas fa-download ml-1"></i></button>
                     </div>
                     <br />
                 </form>

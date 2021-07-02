@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
-/*import axios from 'axios';
-import { saveAs } from 'file-saver';*/
+import axios from 'axios';
+import { saveAs } from 'file-saver';
 import PersonalDetails from './PersonalDetails';
 import Experience from './Experience';
 import Project from './Project';
@@ -87,7 +87,7 @@ class UserForm extends Component {
 
     handleChange = ({ target: { value, name } }) => this.setState({ [name]: value })
 
-    /*formSubmit = (e) => {
+    formSubmit = (e) => {
         e.preventDefault();
 
         const data = {
@@ -110,9 +110,9 @@ class UserForm extends Component {
 
         e.target.reset();
 
-    } */
+    } 
 
-    /*createAndDownloadPdf = () => {
+    createAndDownloadPdf = () => {
       axios.post('/create-pdf', this.state)
            .then(() => axios.get('fetch-pdf', { responseType: 'blob' }))
            .then((res) => {
@@ -120,7 +120,7 @@ class UserForm extends Component {
   
               saveAs(pdfBlob, 'Resume.pdf');
            })
-    } */
+    } 
     render() {
         const { step } = this.state;
         // const { name, email, phone, linkedin, github, skills, exp1_org, exp1_pos, exp1_desc, exp1_dur,
@@ -155,7 +155,6 @@ class UserForm extends Component {
                 );
 
             case 2:
-
                 return (
                     <div className="App pt-5 mt-5">
                         <div className="container col-lg-8 mx-auto text-center">
@@ -173,7 +172,6 @@ class UserForm extends Component {
                 );
 
             case 3:
-
                 return (
                     <div className="App pt-5 mt-5">
                         <div className="container col-lg-8 mx-auto text-center">
@@ -191,7 +189,6 @@ class UserForm extends Component {
                 );
 
             case 4:
-
                 return (
                     <div className="App pt-5 mt-5">
                         <div className="container col-lg-8 mx-auto text-center">
@@ -210,7 +207,6 @@ class UserForm extends Component {
 
 
             case 5:
-
                 return (
                     <div className="App pt-5 mt-5">
                         <div className="container col-lg-8 mx-auto text-center">
@@ -228,11 +224,9 @@ class UserForm extends Component {
                 );
 
             case 6:
-
                 return (
                     <div className="App pt-5 mt-5">
                         <div className="container col-lg-8 mx-auto text-center">
-
                             <Success />
                         </div>
                         <br />
