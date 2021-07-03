@@ -1,3 +1,30 @@
 .heading{
   border-bottom: 1px solid grey;
 }
+.head b{
+  font-size: 70px;
+  font-weight: 780;
+  color: black;
+  vertical-align: bottom;
+}
+.head img{
+  width: 100px;
+  vertical-align: baseline;
+}
+@media (max-width: 400px){
+  .head b{
+      font-size: 50px;
+  }
+  .head img{
+      width: 75px;
+  }
+}
+
+@media (max-width: 300px){
+  .head b{
+      font-size: 40px;
+  }
+  .head img{
+      width: 52px;
+  }
+}
