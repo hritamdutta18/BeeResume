@@ -19,13 +19,13 @@ export default class Education extends Component {
             <div className="card animated fadeInLeft">
                 <div className="card-body">
 
-                    <h2 className="card-title">Education Info</h2>
+                    <h2 className="card-title">Education</h2>
                     <hr />
                 </div>
                 <form onSubmit={this.continue}>
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
-                            <h3><b><i className="fas fa-check-circle mr-1"></i>1</b></h3>
+                            <h3><b><i className="fas fa-book mr-1" style= {{color: "#11426B"}}></i>1</b></h3>
                         </div>
                         <div className="col-lg-4 text-left">
                             <label>College/University*</label>
@@ -52,7 +52,7 @@ export default class Education extends Component {
 
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
-                            <h3><b><i className="fas fa-check-circle mr-1"></i>2</b></h3>
+                            <h3><b><i className="fas fa-book mr-1" style= {{color: "#11426B"}}></i>2</b></h3>
                             <hr/>
                         </div>
                         <div className="col-lg-4 text-left">

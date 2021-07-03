@@ -18,14 +18,14 @@ class Project extends Component {
             <div className="card animated fadeInLeft">
                 <div className="card-body">
 
-                    <h2 className="card-title">Projects' Info</h2>
+                    <h2 className="card-title">Projects</h2>
                     <hr />
                 </div>
                 <form onSubmit={this.continue}>
 
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
-                            <h3><b><i className="fas fa-check-circle mr-1"></i>1</b></h3>
+                            <h3><b><i className="fas fa-star mr-1" style= {{color: "gold"}}></i>1</b></h3>
                         </div>
                         <div className="col-lg-6 text-left">
                             <label>Title*</label>
@@ -50,7 +50,7 @@ class Project extends Component {
 
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
-                            <h3><b><i className="fas fa-check-circle mr-1"></i>2</b></h3>
+                            <h3><b><i className="fas fa-star mr-1" style= {{color: "gold"}}></i>2</b></h3>
                             <hr/>
                         </div>
                         <div className="col-lg-6 text-left">
