@@ -21,22 +21,18 @@ class Experience extends Component {
             <div className="card animated fadeInLeft">
                 <div className="card-body">
 
-                    <h3 className="card-title">Experience Info</h3>
+                    <h3 className="card-title">Experience</h3>
                     <hr />
                 </div>
                 <form onSubmit={this.continue}>
                     
-                    
-
-
-
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
-                            <h3><b><i className="fas fa-check-circle mr-1"></i>1</b></h3>
+                            <h3><b><i className="fas fa-check-circle mr-1" style= {{color: "green"}}></i>1</b></h3>
                         </div>
                         
                         <div className="col-lg-4 text-left">
-                            <label>Institute/Organisation*</label>
+                            <label>Organisation*</label>
                             <input type="text" name="exp1_org" className="form-control" defaultValue={values.status === 1 ? '' : values.exp1_org} onChange={handleChange} required />
                         </div>
                         <div className="col-lg-4 text-left">
@@ -57,15 +53,13 @@ class Experience extends Component {
 
                     <br/>
 
-                        
-
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
-                            <h3><b><i className="fas fa-check-circle mr-1"></i>2</b></h3>
+                            <h3><b><i className="fas fa-check-circle mr-1" style= {{color: "green"}}></i>2</b></h3>
                             <hr/>
                         </div>
                         <div className="col-lg-4 text-left">
-                            <label>Institute/Organisation*</label>
+                            <label>Organisation*</label>
                             <input type="text" name="exp2_org" className="form-control" defaultValue={values.status === 1 ? '' : values.exp2_org} onChange={handleChange} required />
                         </div>
                         <div className="col-lg-4 text-left">
