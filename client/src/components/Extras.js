@@ -51,7 +51,7 @@ class Extras extends Component {
             <div className="card animated fadeInLeft">
                 <div className="card-body">
 
-                    <h2 className="card-title">Extra-Curriculars/Activities</h2>
+                    <h2 className="card-title font-weight-bold">Extra-Curriculars/Activities</h2>
                     <hr />
                 </div>
                 <form onSubmit={this.formSubmit}>

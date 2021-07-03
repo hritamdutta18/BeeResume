@@ -13,7 +13,7 @@ class PersonalDetails extends Component {
             <div className="card animated fadeInLeft">
                 <div className="card-body">
 
-                    <h2 className="card-title">Personal Details</h2>
+                    <h2 className="card-title font-weight-bold">Personal Details</h2>
                     <hr />
                 </div>
                 <form onSubmit={this.continue}>

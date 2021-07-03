@@ -19,7 +19,7 @@ export default class Education extends Component {
             <div className="card animated fadeInLeft">
                 <div className="card-body">
 
-                    <h2 className="card-title">Education</h2>
+                    <h2 className="card-title font-weight-bold">Education</h2>
                     <hr />
                 </div>
                 <form onSubmit={this.continue}>
