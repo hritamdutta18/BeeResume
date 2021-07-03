@@ -141,7 +141,7 @@ class UserForm extends Component {
         switch (step) {
             case 1:
                 return (
-                    <div className="App pt-5 mt-lg-5 mt-4">
+                    <div className="App pt-5 mt-4">
                         <div className="container col-lg-8 mx-auto text-center">
 
                             <PersonalDetails
