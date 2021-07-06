@@ -1,6 +1,7 @@
-# BeeResume
+# 🐝 BeeResume
 
-BeeResume is an online Resume Builder Application which gives the user an automatically generated pre-designed resume, as per the details entered by him/her in the Multi Step form deployed on the website.
+<p align="center"><img src="https://github.com/hritamdutta18/BeeResume/blob/master/client/public/beefavicon.png" alt="Website Logo" width="150" height="150"/></p>
+BeeResume is an online Resume Builder Application which gives the user an automatically generated pre-designed resume, as per the details entered by one in the multi-step form deployed on the website.
 
 ## ⌛ Project Status
 
@@ -22,7 +23,7 @@ But there is some future scope for this project, which is as follows :
 ![JSON](https://img.shields.io/badge/-JSON-05122A?style=flat&logo=json&logoColor=A8B9CC)&nbsp;
 ![React.js](https://img.shields.io/badge/-React.js-05122A?logo=react&style=flat)&nbsp;
 
-## Project Screenshots
+## 🖼️ Project Screenshots
 
 [![image.png](https://i.postimg.cc/W39rsphj/image.png)](https://postimg.cc/Q9TVb3Qn)
 
@@ -35,6 +36,7 @@ But there is some future scope for this project, which is as follows :
 ## 💻 Installation & Setup Requirements
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+<br>Proceed ahead by installing the following modules.<br>
 
 ### Install the following in Node's 'package.json' file ---
 
@@ -57,34 +59,32 @@ Additionally you will require few more dependencies, which are listed below:
 
 <br>
 
-You will require a dev dependency `nodemon` for local deployment.
+You will require a dev dependency `nodemon` for local deployment.<br>
 `npm install nodemon --save-dev`
 
 <br>
 
 ### Install the following in React App's 'package.json' file ---
 
-Use `npx create-react-app client` to create a React App in a folder named client in the current directory.<br>
-Do `cd client` and proceed ahead !
+<span><i>Hint (Not required if you clome this repo) : </i></span> Use `npx create-react-app client` to create a React App in a folder named client in the current directory.<br>
+<br>Do `cd client` and proceed ahead !
 
-You will require few more dependencies, which are listed below:
+You will require few modules other than the pre-installed ones, which are listed below:
 
 ##### - axios
 `npm install axios --save`
 
 ##### - file-saver
-`npm install file-save --save`
-
-##### - cors
-`npm install cors --save`
+`npm install file-saver --save`
 
 <br>
 
-### To Start Server (will open at port 5000):
+### To Start Server (will open at port 5000)
 
 `node index.js`
 
-### To Start React App (will open in localhost:3000):
+### To Start React App (will open in localhost:3000)
 
 `npm start`
   
+<br><p><i><b>Go to "/package.json" and change the GitHub repository links to your own repository link accordingly !! </b></i></p>
