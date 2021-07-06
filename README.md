@@ -16,12 +16,10 @@ But there is some future scope for this project, which is as follows :
 
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap&logoColor=563D7C)\
 ![Node.js](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js)&nbsp;
 ![Express.js](https://img.shields.io/badge/-Express.js-05122A?style=flat&logo=express)&nbsp;
-![JSON](https://img.shields.io/badge/-JSON-05122A?style=flat&logo=json&logoColor=A8B9CC)&nbsp;
-![React.js](https://img.shields.io/badge/-React.js-05122A?logo=react&style=flat)&nbsp;
+![React.js](https://img.shields.io/badge/-React.js-05122A?logo=react&style=flat)
 
 ## 🖼️ Project Screenshots
 
