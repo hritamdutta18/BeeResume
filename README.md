@@ -5,7 +5,7 @@ BeeResume is an online Resume Builder Application which gives the user an automa
 
 ## ⌛ Project Status
 
-It has been deployed on Heroku. You can check it out here @ <a href= "https://https://bee-resume.herokuapp.com/">BeeResume</a>.<br>
+It has been deployed on Heroku. You can check it out here @ <a href= "https://bee-resume.herokuapp.com/">BeeResume</a>.<br>
 But there is some future scope for this project, which is as follows :
 
 1) More Resume templates
